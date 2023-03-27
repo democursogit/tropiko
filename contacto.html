@@ -27,6 +27,12 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+
+  <style>
+    h3{
+      color: #fc5d35;
+    }
+  </style>
 </head>
 
 <body>
@@ -86,27 +92,36 @@
       <h2 class="font-weight-bold">
         Contacta con TROPIKO
       </h2>
+      <h3>
+        Direccion: Calle limitación 30. Malaga. España
+      </h3>
+      <h3>
+        Teléfono: 952 748 654
+      </h3>
+      <h3>
+        Email: comercial@tropikofrutas.com
+      </h3>
       <div class="row">
         <div class="col-md-8 mr-auto">
-          <form action="">
+          <form action= "http://www.tropiko/form/proces.php" method="post">
             <div class="contact_form-container">
               <div>
                 <div>
-                  <input type="text" placeholder="Name">
+                  <input type="text" name="name" placeholder="Nombre" required>
                 </div>
                 <div>
-                  <input type="text" placeholder="Phone Number">
+                  <input type="text" name="phone" placeholder="Telefono" required>
                 </div>
                 <div>
-                  <input type="email" placeholder="Email">
+                  <input type="email" name="email" placeholder="Email" required>
                 </div>
 
                 <div class="mt-5">
-                  <input type="text" placeholder="Message">
+                  <input type="text" name="texts" placeholder="Consultas" required>
                 </div>
                 <div class="mt-5">
                   <button type="submit">
-                    send
+                    Enviar
                   </button>
                 </div>
               </div>
@@ -116,6 +131,7 @@
           </form>
         </div>
       </div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.754727916291!2d-4.513507182556151!3d36.70443140000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f09b2523235b%3A0xb1f909d79d6e838e!2zQy4gTGltaXRhY2nDs24sIDMwLCAyOTE5NiBNw6FsYWdh!5e0!3m2!1sen!2ses!4v1679940107033!5m2!1sen!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </section>
   <!-- end contact section -->
