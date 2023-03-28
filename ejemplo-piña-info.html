@@ -27,6 +27,23 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+
+  <style>
+    .propiedades_pinna li, .variedades_pinna li{
+      position: relative;
+      margin: 10px 0;
+      list-style-type: none;
+      /* list-style:url(./images/pina-icon.png); */
+    }
+    
+    .propiedades_pinna li::before, .variedades_pinna li::before{
+      position: absolute;
+      left: -40px;
+      top: -8px;      
+      content:url(./images/pina-icon.png);
+    }
+
+  </style>
   
 </head>
 
@@ -120,7 +137,7 @@
             <p class="mt-4 mb-5 ">
                 La piña tiene un elevado contenido de agua y un bajo valor calórico. Así, 100 gramos de piña proporcionan sólo 55 calorías. Este aporte calórico se debe a su contenido en hidratos de carbono, ya que el porcentaje de grasas y proteínas es casi inapreciable.
 
-                <ul>
+                <ul class="propiedades_pinna">
                     <li><strong>Hidratos de carbono: </strong> La piña contiene alrededor de un 11% de hidratos de carbono, la mayor parte de los cuales son azúcares. Estos azúcares (sacarosa y fructosa, principalmente) son hidratos de carbono de asimilación rápida y su contenido aumenta a medida que el fruto madura.</li>
                     <li><strong>Lípidos o grasas:</strong> Apenas contiene grasa, 100 gramos de piña contienen 0,2 gramos de grasa.</li>
                     <li><strong>Proteínas:</strong> Al igual que la grasa, la piña apenas contiene proteínas, siendo su contenido casi insignificante (0,4 gramos por 100 g de piña).</li>
@@ -148,7 +165,7 @@
             </h3>
             <p class="mt-4 mb-5 ">
                 <p>Actualmente se conocen tres variedades botánicas de piña tropical, estas son Sativus (sin semillas), Comosus (forma semillas capaces de germinar) y Lucidus (permite una recolección más fácil porque sus hojas no poseen espinas), sin embargo, aparte de estas, también se clasifican por variedades comerciales, a continuación mencionaremos las más populares entre los productores de la región latinoamericana.</p>
-              <ul>
+              <ul class="variedades_pinna">
                 <li><strong>Española roja o morada (Red Spanish): </strong> Una de las variedades más cultivadas en Latinoamérica también llamada “Black Spanish”, “Key Largo”, “Cubana” o “Cumanesa”, se distingue por sus hojas largas, estrechas y espinosas, tiene una piel naranja en forma de barril, y una pulpa firme de color amarillo pálido. Puede pesar entre 1,2 y 2 Kg</li>
                 <li><strong>Castilla: </strong>es una planta de mucho vigor, y con hojas anchas, con espinas y manchas color purpura, bastante tolerante a la sequía, la pulpa de su fruto es cilíndrico, de color amarillo pálido, y puede llegar a pesar entre 0,8 y 1,5 Kg.</li>
                 <li><strong> Perolera: </strong> Es la variedad más común, la cual es una planta grande, con hojas cortas y medianas de color verde oscuro, de bordes lisos. Fruto con forma cubica, de color amarillo tanto la pulpa como la cáscara. Es muy empleada en la agroindustria por el contenido de jugo</li>
